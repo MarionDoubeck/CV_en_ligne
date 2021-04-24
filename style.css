@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://res.cloudinary.com/codier/image/upload/v1597993146/pfm6massbguu3zkomgkh.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #218c74;
+    padding: 15px 5%;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a {
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+.titre {
+    font-family: 'Baloo Tamma 2', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    flex: 0.95;
+    text-align: center;
+}
+
+#coordonnees {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #ff7b00;
+    text-align: center;
+}
+
+#profil {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 2px 2px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #ff7b00;
+}
+
+.container {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+
+.main-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-child {
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    width: 25%;
+    height: 500px;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.container-child2 {
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    width: 70%;
+    height: 500px;
+    padding: 40px 20px;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    overflow: scroll;
+    
+}
+.container-child3 {
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    width: 70%;
+    height: 500px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    overflow: scroll;
+    
+}
+
+.container-child3 img {
+    background-color:white;
+}
+
+.container-child4 {
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    width: 70%;
+    height: 500px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    overflow: scroll;
+    
+}
+
+#menufixe {
+    position: fixed;
+    right: 7px;
+    top: 30%;
+    width: 9em;
+    margin-top: -2.5em;
+    font-size: 0.9em;
+  }
+
+#menufixe div {
+    background-color: rgba(49, 128, 110,0.2);
+    border: 3px black solid;
+    border-radius: 7px;
+    border-color: black;
+}
+
+#menufixe #boutontitre {
+    background-color: rgba(250, 121, 0, 0.2);
+    border-radius: 7px;
+    padding: -5px -5px;
+    border: 3px black solid ;
+}
+
+#comp {
+    border-top: #ff7b00 solid;
+}
+#exp {
+    border-top: #ff7b00 solid;
+}
+#formac {
+    border-top: #ff7b00 solid;
+}
+
+button {
+    font-size: 1.2vw;
+    font-family: 'Baloo Tamma 2', cursive;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #ff7b00;
+}
+
+
+
+p {
+    text-align: center;
+}
+
+.data-collect {
+    padding: 0px 10px;
+    margin-top: 30px;
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: #ff7b00;
+}
+
+@media screen and (max-width: 1200px){
+    .container {
+        flex-direction: column;
+    }
+    .container-child {
+        width: 75%;
+        margin: 10px 0px;
+    }
+    button {
+        font-size: 2vw;
+    }
+}
